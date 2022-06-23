@@ -6,11 +6,18 @@ https://github.com/mat/besticon
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <base target="_blank">
     <title>Nia Page</title>
     <style>
+      .favicon {
+        height: 16px;
+        width: 16px;
+      }
       body {
         background-color: white;
         color: black;
+        font-family: "Arial";
       }
       a:link {
         text-decoration: none;
@@ -25,10 +32,6 @@ https://github.com/mat/besticon
       a:active {
         text-decoration: underline;
       }
-      .favicon {
-        height: 16px;
-        width: 16px;
-      }
       @media screen and (prefers-color-scheme: dark) {
         body {
           background-color: #2B2A33;
@@ -42,12 +45,18 @@ https://github.com/mat/besticon
           text-decoration: none;
           color: #00FF41;
         }
+        a:hover {
+          text-decoration: underline;
+        }
+        a:active {
+          text-decoration: underline;
+        }
       } 
     </style>
   </head>
   <body>
+    <p style="font-family: sans-serif;"><b><a href="#Home" style="color:#03A062" target="_self">HOME</a> | </b></p>
     <h1>Bookmarks</h1>
-	    <p><a href="#Home">HOME</a> | </p>
 	    <h2 id="Home">Home</h2>
 		    <p><img src="favicons/4chan.org.ico" class="favicon">&nbsp;<a href="https://boards.4channel.org/v/">/v/ - Video Games - 4chan</a></p>
 		    <p><img src="favicons/4chan.org.ico" class="favicon">&nbsp;<a href="https://boards.4channel.org/g/">/g/ - Technology - 4chan</a></p>
